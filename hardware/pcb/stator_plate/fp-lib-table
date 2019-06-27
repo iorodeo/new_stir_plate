@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name SDR1105)(type KiCad)(uri ${KIPRJMOD}/SDR1105.pretty)(options "")(descr ""))
+  (lib (name OST_SCREW_TERM_2)(type KiCad)(uri ${KIPRJMOD}/OST_SCREW_TERM_2.pretty)(options "")(descr ""))
+  (lib (name 4-40_mount_hole)(type KiCad)(uri ${KIPRJMOD}/4-40_mount_hole.pretty)(options "")(descr ""))
+)

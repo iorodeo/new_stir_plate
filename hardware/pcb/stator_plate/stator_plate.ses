@@ -1,0 +1,132 @@
+
+(session stator_plate.ses
+  (base_design stator_plate.dsn)
+  (placement
+    (resolution um 10)
+    (component OST_SCREW_TERM_2:CONNBLOCK2
+      (place J1 1651000 -965200 back 90)
+    )
+    (component OST_SCREW_TERM_2:CONNBLOCK2::1
+      (place J2 1651000 -1071880 back 90)
+    )
+    (component SDR1105:SDR1105
+      (place L1 1270000 -838200 front 180)
+      (place L2 1270000 -1193800 front 0)
+    )
+    (component SDR1105:SDR1105::1
+      (place L3 1092200 -1016000 front 270)
+      (place L4 1447800 -1016000 front 90)
+    )
+    (component "4-40_mount_hole:4-40_mount_hole"
+      (place M1 1054100 -800100 front 0)
+      (place M2 1485900 -800100 front 0)
+      (place M3 1485900 -1231900 front 0)
+      (place M4 1054100 -1231900 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(J1-Pad2)"
+        (wire
+          (path F.Cu 10160
+            1270000 -1239774
+            1292098 -1239774
+          )
+        )
+        (wire
+          (path F.Cu 10160
+            1292098 -1239774
+            1415956 -1115916
+            1648816 -1115916
+            1668084 -1096648
+            1668084 -999785
+            1651000 -982701
+          )
+        )
+      )
+      (net "Net-(J1-Pad1)"
+        (wire
+          (path F.Cu 10160
+            1270000 -792226
+            1292098 -792226
+          )
+        )
+        (wire
+          (path F.Cu 10160
+            1292098 -792226
+            1447571 -947699
+            1651000 -947699
+          )
+        )
+      )
+      (net "Net-(J2-Pad1)"
+        (wire
+          (path F.Cu 10160
+            1651000 -1054379
+            1630840 -1054379
+          )
+        )
+        (wire
+          (path F.Cu 10160
+            1493774 -1016000
+            1592461 -1016000
+            1630840 -1054379
+          )
+        )
+      )
+      (net "Net-(J2-Pad2)"
+        (wire
+          (path F.Cu 10160
+            1046226 -1016000
+            1046226 -1038098
+          )
+        )
+        (wire
+          (path F.Cu 10160
+            1046226 -1038098
+            1097509 -1089381
+            1651000 -1089381
+          )
+        )
+      )
+      (net "Net-(L1-Pad1)"
+        (wire
+          (path F.Cu 10160
+            1270000 -1147826
+            1137789 -1147826
+            1023902 -1033939
+            1023902 -1000443
+            1140171 -884174
+            1270000 -884174
+          )
+        )
+      )
+      (net "Net-(L3-Pad1)"
+        (wire
+          (path F.Cu 10160
+            1401826 -1016000
+            1138174 -1016000
+          )
+        )
+      )
+    )
+  )
+)

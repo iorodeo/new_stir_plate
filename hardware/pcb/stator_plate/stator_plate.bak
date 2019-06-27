@@ -1,0 +1,118 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:L_Core_Ferrite L1
+U 1 1 5D02E80C
+P 3800 1650
+F 0 "L1" H 3759 1604 50  0000 R CNN
+F 1 "L_Core_Ferrite" H 3759 1695 50  0000 R CNN
+F 2 "SDR1105:SDR1105" H 3800 1650 50  0001 C CNN
+F 3 "~" H 3800 1650 50  0001 C CNN
+	1    3800 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L3
+U 1 1 5D02EA1C
+P 3200 2100
+F 0 "L3" V 3022 2100 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 3113 2100 50  0000 C CNN
+F 2 "SDR1105:SDR1105" H 3200 2100 50  0001 C CNN
+F 3 "~" H 3200 2100 50  0001 C CNN
+	1    3200 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L2
+U 1 1 5D02EAA6
+P 3800 2500
+F 0 "L2" H 3888 2546 50  0000 L CNN
+F 1 "L_Core_Ferrite" H 3888 2455 50  0000 L CNN
+F 2 "SDR1105:SDR1105" H 3800 2500 50  0001 C CNN
+F 3 "~" H 3800 2500 50  0001 C CNN
+	1    3800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L4
+U 1 1 5D02EB33
+P 4450 2100
+F 0 "L4" V 4675 2100 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 4584 2100 50  0000 C CNN
+F 2 "SDR1105:SDR1105" H 4450 2100 50  0001 C CNN
+F 3 "~" H 4450 2100 50  0001 C CNN
+	1    4450 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1800 3800 2350
+Wire Wire Line
+	3350 2100 4300 2100
+Wire Wire Line
+	3050 2100 2950 2100
+Wire Wire Line
+	2950 2100 2950 3000
+Wire Wire Line
+	3800 2650 3800 2750
+Wire Wire Line
+	3800 2750 5000 2750
+Wire Wire Line
+	5000 2000 5400 2000
+Wire Wire Line
+	5000 2000 5000 2750
+Wire Wire Line
+	3800 1500 3800 1400
+Wire Wire Line
+	3800 1400 5000 1400
+Wire Wire Line
+	5000 1400 5000 1900
+Wire Wire Line
+	5000 1900 5400 1900
+Wire Wire Line
+	5200 2100 5200 2350
+Wire Wire Line
+	5200 2350 5400 2350
+Wire Wire Line
+	4600 2100 5200 2100
+Wire Wire Line
+	5200 3000 5200 2450
+Wire Wire Line
+	5200 2450 5400 2450
+Wire Wire Line
+	2950 3000 5200 3000
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5D02FB3A
+P 5600 1900
+F 0 "J1" H 5680 1892 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5680 1801 50  0000 L CNN
+F 2 "OST_SCREW_TERM_2:CONNBLOCK2" H 5600 1900 50  0001 C CNN
+F 3 "~" H 5600 1900 50  0001 C CNN
+	1    5600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5D02FC0B
+P 5600 2350
+F 0 "J2" H 5680 2342 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5680 2251 50  0000 L CNN
+F 2 "OST_SCREW_TERM_2:CONNBLOCK2" H 5600 2350 50  0001 C CNN
+F 3 "~" H 5600 2350 50  0001 C CNN
+	1    5600 2350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

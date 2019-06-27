@@ -1,0 +1,169 @@
+(pcb /home/wbd/work/products/stirplate/hardware/pcb/stator_plate/stator_plate.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  146005 -73734.1  147211 -73955.2  148383 -74320.2  149502 -74823.8
+            150552 -75458.5  151517 -76215.1  152385 -77082.7  153142 -78048.5
+            153776 -79098.4  154280 -80217.2  154645 -81388.6  154866 -82595.3
+            154940 -83820  154940 -90170  155037 -90656  155312 -91068  155724 -91343.3
+            156210 -91440  168275 -91440  168592 -91525.1  168825 -91757.5
+            168910 -92075  168910 -111760  168825 -112078  168592 -112310
+            168275 -112395  156210 -112395  155724 -112492  155312 -112767
+            155037 -113179  154940 -113665  154940 -119380  154866 -120605
+            154645 -121811  154280 -122983  153776 -124102  153142 -125152
+            152385 -126117  151517 -126985  150552 -127742  149502 -128376
+            148383 -128880  147211 -129245  146005 -129466  144780 -129540
+            109220 -129540  107995 -129466  106789 -129245  105617 -128880
+            104498 -128376  103448 -127742  102483 -126985  101615 -126117
+            100858 -125152  100224 -124102  99720.2 -122983  99355.2 -121811
+            99134.1 -120605  99060 -119380  99060 -83820  99134.1 -82595.3
+            99355.2 -81388.6  99720.2 -80217.2  100224 -79098.4  100858 -78048.5
+            101615 -77082.7  102483 -76215.1  103448 -75458.5  104498 -74823.8
+            105617 -74320.2  106789 -73955.2  107995 -73734.1  109220 -73660
+            144780 -73660  146005 -73734.1)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 1016)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component OST_SCREW_TERM_2:CONNBLOCK2
+      (place J1 165100 -96520 back 90 (PN Screw_Terminal_01x02))
+    )
+    (component OST_SCREW_TERM_2:CONNBLOCK2::1
+      (place J2 165100 -107188 back 90 (PN Screw_Terminal_01x02))
+    )
+    (component SDR1105:SDR1105
+      (place L1 127000 -83820 front 180 (PN L_Core_Ferrite))
+      (place L2 127000 -119380 front 0 (PN L_Core_Ferrite))
+    )
+    (component SDR1105:SDR1105::1
+      (place L3 109220 -101600 front 270 (PN L_Core_Ferrite))
+      (place L4 144780 -101600 front 90 (PN L_Core_Ferrite))
+    )
+    (component "4-40_mount_hole:4-40_mount_hole"
+      (place M1 105410 -80010 front 0 (PN "4-40_mount_hole"))
+      (place M2 148590 -80010 front 0 (PN "4-40_mount_hole"))
+      (place M3 148590 -123190 front 0 (PN "4-40_mount_hole"))
+      (place M4 105410 -123190 front 0 (PN "4-40_mount_hole"))
+    )
+  )
+  (library
+    (image OST_SCREW_TERM_2:CONNBLOCK2
+      (outline (path signal 254  -3810 3403.6  -3810 -3403.6))
+      (outline (path signal 254  3810 3403.6  3810 -3403.6))
+      (outline (path signal 254  -3810 3403.6  3810 3403.6))
+      (outline (path signal 254  -3810 -3403.6  3810 -3403.6))
+      (pin Round[A]Pad_2000_um 2 1750.06 0)
+      (pin Rect[A]Pad_2000x2000_um 1 -1750.06 0)
+    )
+    (image OST_SCREW_TERM_2:CONNBLOCK2::1
+      (outline (path signal 254  -3810 -3403.6  3810 -3403.6))
+      (outline (path signal 254  -3810 3403.6  3810 3403.6))
+      (outline (path signal 254  3810 3403.6  3810 -3403.6))
+      (outline (path signal 254  -3810 3403.6  -3810 -3403.6))
+      (pin Rect[A]Pad_2000x2000_um 1 -1750.06 0)
+      (pin Round[A]Pad_2000_um 2 1750.06 0)
+    )
+    (image SDR1105:SDR1105
+      (outline (path signal 254  0 5537.2  5003.8 5537.2))
+      (outline (path signal 254  5003.8 5537.2  5003.8 -5537.2))
+      (outline (path signal 254  5003.8 -5537.2  -5003.8 -5537.2))
+      (outline (path signal 254  -5003.8 -5537.2  -5003.8 5537.2))
+      (outline (path signal 254  -5003.8 5537.2  25.4 5537.2))
+      (pin Rect[T]Pad_2387.6x3048_um 1 0 4597.4)
+      (pin Rect[T]Pad_2387.6x3048_um 2 0 -4597.4)
+    )
+    (image SDR1105:SDR1105::1
+      (outline (path signal 254  -5003.8 5537.2  25.4 5537.2))
+      (outline (path signal 254  -5003.8 -5537.2  -5003.8 5537.2))
+      (outline (path signal 254  5003.8 -5537.2  -5003.8 -5537.2))
+      (outline (path signal 254  5003.8 5537.2  5003.8 -5537.2))
+      (outline (path signal 254  0 5537.2  5003.8 5537.2))
+      (pin Rect[T]Pad_2387.6x3048_um 2 0 -4597.4)
+      (pin Rect[T]Pad_2387.6x3048_um 1 0 4597.4)
+    )
+    (image "4-40_mount_hole:4-40_mount_hole"
+      (pin Round[A]Pad_3556_um @1 0 0)
+    )
+    (padstack Round[A]Pad_2000_um
+      (shape (circle F.Cu 2000))
+      (shape (circle B.Cu 2000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3556_um
+      (shape (circle F.Cu 3556))
+      (shape (circle B.Cu 3556))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2000x2000_um
+      (shape (rect F.Cu -1000 -1000 1000 1000))
+      (shape (rect B.Cu -1000 -1000 1000 1000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2387.6x3048_um
+      (shape (rect F.Cu -1193.8 -1524 1193.8 1524))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(J1-Pad2)"
+      (pins J1-2 L2-2)
+    )
+    (net "Net-(J1-Pad1)"
+      (pins J1-1 L1-2)
+    )
+    (net "Net-(J2-Pad1)"
+      (pins J2-1 L4-2)
+    )
+    (net "Net-(J2-Pad2)"
+      (pins J2-2 L3-2)
+    )
+    (net "Net-(L1-Pad1)"
+      (pins L1-1 L2-1)
+    )
+    (net "Net-(L3-Pad1)"
+      (pins L3-1 L4-1)
+    )
+    (class kicad_default "" "Net-(J1-Pad1)" "Net-(J1-Pad2)" "Net-(J2-Pad1)"
+      "Net-(J2-Pad2)" "Net-(L1-Pad1)" "Net-(L3-Pad1)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 1016)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

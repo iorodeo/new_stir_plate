@@ -1,0 +1,58 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.2-bee76a0~70~ubuntu18.04.1*
+G04 #@! TF.CreationDate,2019-06-27T14:31:57-07:00*
+G04 #@! TF.ProjectId,stator_plate,73746174-6f72-45f7-906c-6174652e6b69,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L2,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.0.2-bee76a0~70~ubuntu18.04.1) date Thu 27 Jun 2019 02:31:57 PM PDT*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD10C,2.000000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD11R,2.000000X2.000000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD12C,3.556000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.P,J1,2*
+G04 #@! TO.N,Net-(J1-Pad2)*
+X165100000Y-98270060D03*
+D11*
+G04 #@! TO.P,J1,1*
+G04 #@! TO.N,Net-(J1-Pad1)*
+X165100000Y-94769940D03*
+G04 #@! TD*
+G04 #@! TO.P,J2,1*
+G04 #@! TO.N,Net-(J2-Pad1)*
+X165100000Y-105437940D03*
+D10*
+G04 #@! TO.P,J2,2*
+G04 #@! TO.N,Net-(J2-Pad2)*
+X165100000Y-108938060D03*
+G04 #@! TD*
+D12*
+G04 #@! TO.P,M1,*
+G04 #@! TO.N,*
+X105410000Y-80010000D03*
+G04 #@! TD*
+G04 #@! TO.P,M2,*
+G04 #@! TO.N,*
+X148590000Y-80010000D03*
+G04 #@! TD*
+G04 #@! TO.P,M3,*
+G04 #@! TO.N,*
+X148590000Y-123190000D03*
+G04 #@! TD*
+G04 #@! TO.P,M4,*
+G04 #@! TO.N,*
+X105410000Y-123190000D03*
+G04 #@! TD*
+M02*
